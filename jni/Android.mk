@@ -279,7 +279,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../src
 #LOCAL_CFLAGS := -DGLDEBUG $(LOCAL_CFLAGS)
 
 LOCAL_LDLIBS    := -llog -landroid -lEGL -lGLESv1_CM -lOpenSLES
-LOCAL_STATIC_LIBRARIES := android_native_app_glue RakNet
+LOCAL_STATIC_LIBRARIES := android_native_app_glue
 
 #LOCAL_CPP_FEATURES := exceptions
 
@@ -287,4 +287,4 @@ include $(BUILD_SHARED_LIBRARY)
 
 # NOTE: environment var NDK_MODULE_PATH needs to point to lib_projects folder
 $(call import-module,android/native_app_glue)
-$(call import-module, raknet/jni)
+#$(call import-module, raknet/jni)
