@@ -1,5 +1,4 @@
 	<!-- Verizon VCAST -->
-	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 	<uses-permission android:name="android.permission.START_BACKGROUND_SERVICE"/>
 	<uses-permission android:name="com.verizon.vcast.apps.VCAST_APPS_LICENSE_SERVICE"/>
 
@@ -15,5 +14,3 @@
 		    <action android:name="com.android.vending.INSTALL_REFERRER" />
 		</intent-filter>
 		</receiver>
-
-	
